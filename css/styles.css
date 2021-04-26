@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#firstp {font-size: large;
+font-weight: bold;
+font-style: italic;
+background-color: palevioletred;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(8, 11, 133);
+
+}
+
+main ol li {
+    list-style: decimal;
+}
+
+#firstItem {
+    background-color: rgb(164, 27, 182);
+    font-style: italic;
+}
+
+.secondItem {
+    background-color: rgb(22, 232, 247);
+    
+}
+
+body {
+    background-color: rgb(139, 224, 68);
+}
