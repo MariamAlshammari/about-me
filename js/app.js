@@ -200,7 +200,7 @@ switch (education.toUpperCase()) {
 
     console.log('yor score is:'+score);
 
-    alert('Great work ' + userName + ' your score is ' + score);
+    alert('Great work ' + userName + ' your score is ' + score+' of 7');
 
 
     
