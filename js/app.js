@@ -157,44 +157,31 @@ switch (education.toUpperCase()) {
        break;}
     }
 
+
+    var userFavFruit = ['blueberry', 'strawberry', 'banana', 'mango', 'watermelon'];
+
+    for (var i = 0; i < 6; i++) {
+        var userAnsw = prompt('Can you guess my favorite fruit?');
+        var guess = userAnsw.toLowerCase();
+
+        for (var j = 0; j < userFavFruit.length; j++){
+            if (guess === userFavFruit[j]) {
+                alert('Congrats i like it, Yor answer is correct is: '+userAnsw);
+                console.log('Congrats i like it, Yor answer is correct is: '+userAnsw);
+                score++;
+                i = 6;
+                break;
+            }
+        }
+        if (i !==6){
+            alert('Sorry wrong answer'+userAnsw+', try again');
+            console.log('Sorry wrong answer, try again');
+        }
+    }
+
     
-    let MYfavFruit = ['apple','blueberry','Strawberries', 'orange', 'banana' , 'mango'];
-
-    for (let i = 0; i < MYfavFruit.length; i++) {
-       console.log(MYfavFruit[i]);}
-
-      
-
-       var counter2=0;
-       if(counter2==6){ alert('Sorry you run out of guesses');}
-       let favFruit
-       while (counter2 < 6 && favFruit !==MYfavFruit)
-       {  favFruit = prompt('what is my favourit fruit?apple,blueberry,Strawberries orange, banana or mango,!');
-       console.log('Yor answer is: '+favFruit);
-       alert('Yor answer is: '+favFruit);
-       switch (favFruit.toUpperCase()) {
-     
-         case 'BLUEBERRY':
-         case 'BANANA':
-         case 'MANGO': 
-         console.log('Great,i like it');
-         alert('Great,i like it');
-         score++;
-         counter2=6;
-         break;
-        case 'STRAWBERRIES':
-        case 'ORANGE': 
-        case 'APPLE': 
-        console.log('Ooh no , i like another type more!');
-        alert('Ooh no , i like another type more!');
-        counter2++;
-        break;
-    default:
-        break;
-    }}
-    
-    alert('my favourit fruits are: blueberry, banana, mango');
-    console.log('my favourit fruits are: blueberry, banana, mango');
+    alert('my favourit fruits are: blueberry, banana, mango,strawberry,watermelon');
+    console.log('my favourit fruits are: blueberry, banana, mango,strawberry,watermelon');
 
 
 
