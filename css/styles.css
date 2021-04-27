@@ -20,9 +20,9 @@ nav ul li a {
 
 }
 
-main ol li {
-    list-style: decimal;
-}
+ /* main ol li {
+    list-style: decimal;}*/
+
 
 #firstItem {
     background-color: rgb(164, 27, 182);
