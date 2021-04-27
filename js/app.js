@@ -4,28 +4,51 @@
 console.log('Your name is : '+userName);
 alert('Hello '+userName +' Welcome to my website, best wishes ^_^ ');
 
-let mood = prompt('are you ok? please answer yes or no y/n !');
-console.log('Yor mood is: '+mood);
-alert('Yor mood is: '+mood);
+
+let area = prompt('Do i live in Amman? please answer yes or no y/n !');
+console.log('Yor answer is: '+area);
+alert('Yor answer is: '+area);
 
 
-switch (mood.toUpperCase()) {
+switch (area.toUpperCase()) {
      case 'YES':
      case 'Y':
-         console.log('Great,you are ok, have a nice day');
-         alert('Great,you are ok, have a nice day');
+         console.log('Ooh no ,your answer is wrong!, i live in Arramtha');
+         alert('Ooh no ,your answer is wrong!, i live in Arramtha');
          break;
      case 'NO':
      case 'N':  
-         console.log('Ooh no ,i hope improve yor mood quikly, good luck!');
-         alert('Ooh no ,i hope improve yor mood quikly, good luck!');
+         console.log('Great,I live in Arramtha');
+         alert('Great,I live in Arramtha');
          break;
     default:
-        alert('please answer yes or no y/n for your mood!')
+        alert('please answer yes or no y/n !')
+
+ }
+ 
+
+let myHobby = prompt('Is it one of my hobbies to enjoy writing my own words in my spare time؟please answer yes or no y/n !');
+console.log('Yor answer is: '+myHobby);
+alert('Yor answer is: '+myHobby);
+
+
+switch (myHobby.toUpperCase()) {
+     case 'YES':
+     case 'Y':
+         console.log('Great,Writing is really one of my hobbies');
+         alert('Great,Writing is really one of my hobbies');
+         break;
+     case 'NO':
+     case 'N':  
+         console.log('Ooh no , your answer is wrong ,Writing is really one of my hobbies!');
+         alert('Ooh no ,your answer is wrong, Writing is really one of my hobbies!');
+         break;
+    default:
+        alert('please answer yes or no y/n !')
 
  }
 
- let programming = prompt('Do you like programming? please answer yes or no y/n !');
+ let programming = prompt('Do I like programming? please answer yes or no y/n !');
 console.log('Yor answer is: '+programming);
 alert('Yor answer is: '+programming);
 
@@ -33,77 +56,66 @@ alert('Yor answer is: '+programming);
 switch (programming.toUpperCase()) {
      case 'YES':
      case 'Y':
-         console.log('Great,you are like programming, Register for this course at LTUC now');
-         alert('Great,you are like programming, Register for this course at LTUC now');
+         console.log('Great,I like programming ');
+         alert('Great,I like programming');
          break;
      case 'NO':
      case 'N':  
-         console.log('Ooh no ,i hope improve yorself in another fields ,good luck!');
-         alert('Ooh no ,i hope improve yorself in another fields ,good luck!');
+         console.log('Ooh no ,your answer is wrong, i love programming!');
+         alert('Ooh no ,your answer is wrong, i love programming!');
          break;
     default:
-        alert('please answer yes or no y/n for your mood!')
+        alert('please answer yes or no y/n !')
 
  }
 
  
-let browsing = prompt('are you enjoy to browsing my page? please answer yes or no y/n !');
-console.log('Yor answer is: '+browsing);
-alert('Yor answer is: '+browsing);
+ let education = prompt('Did I study computer information systems? please answer yes or no y/n !');
+console.log('Yor answer is: '+education);
+alert('Yor answer is: '+education);
 
-switch (browsing.toUpperCase()) {
-    case 'YES':
-    case 'Y':
-        console.log('Great,you are enjoy to bowsing my webpage');
-        alert('Great,you are enjoy to bowsing my webpage');
-        break;
-    case 'NO':
-    case 'N':  
-        console.log('Ooh no ,i hope enjoy browsing in another webpage');
-        alert('Ooh no ,i hope enjoy browsing in another webpage');
-        break;
-   default:
-       alert('please answer yes or no y/n for your browsing!')
 
-}
+switch (education.toUpperCase()) {
+     case 'YES':
+     case 'Y':
+         console.log('Great,I studied CIS  ');
+         alert('Great,I studied CIS ');
+         break;
+     case 'NO':
+     case 'N':  
+         console.log('Ooh no ,your answer is wrong!');
+         alert('Ooh no ,your answer is wrong!');
+         break;
+    default:
+        alert('please answer yes or no y/n !')
 
-let favfruit = prompt('My favorite fruit is banana and do you like it like me? please answer yes or no y/n !');
-console.log('Yor answer is: '+favfruit);
-alert('Yor answer is: '+favfruit);
+ }
 
-switch (favfruit.toUpperCase()) {
-    case 'YES':
-    case 'Y':
-        console.log('Great,you are like me, please purchase alot of banana hehe!');
-        alert('Great,you are like me, please purchase alot of banana hehe!');
-        break;
-    case 'NO':
-    case 'N':  
-        console.log('you said no ,i hope enjoy eating another type of fruit');
-        alert('Ooh you said no ,i hope enjoy eating another type of fruit');
-        break;
-   default:
-       alert('please answer yes or no y/n for your browsing!')
 
-}
 
-let favcolor = prompt('My favorite color is green and do you like it like me? please answer yes or no y/n !');
-console.log('Yor answer is: '+favcolor);
-alert('Yor answer is: '+favcolor);
+  let university = prompt('Did I study BA at the Jordan University of Science and Technology? please answer yes or no y/n !');
+ console.log('Yor answer is: '+university);
+ alert('Yor answer is: '+university);
+ 
+ 
+ switch (university.toUpperCase()) {
+      case 'YES':
+      case 'Y':
+          console.log('Ooh no ,your answer is wrong!, i have a BA degree from yarmouk university!');
+          alert('Ooh no ,your answer is wrong!, i have a BA degree from yarmouk university!');
+          break;
+      case 'NO':
+      case 'N':  
+          console.log('Great,i have a BA degree from yarmouk university');
+          alert('Great,i have a BA degree from yarmouk university');
+          break;
+     default:
+         alert('please answer yes or no y/n !')
+ 
+  }
 
-switch (favcolor.toUpperCase()) {
-    case 'YES':
-    case 'Y':
-        console.log('Great,you are like me, like a green color');
-        alert('Great,you are like me,like a green color');
-        break;
-    case 'NO':
-    case 'N':  
-        console.log('you said no ,i hope enjoy liking another color');
-        alert('Ooh you said no ,i hope enjoy liking another color');
-        break;
-   default:
-       alert('please answer yes or no y/n for your browsing!')
+ 
 
-}
+ 
+
 
