@@ -125,10 +125,10 @@ switch (education.toUpperCase()) {
    let count=0;
   let myAge = Number(prompt('what is my age'));
 
-  while (!myAge) {
+ /* while (!myAge) {
       
          myAge = Number(prompt('what is my age'));
-         }
+         }*/
 
     
      for (let i = 0; i < 3; i++) 
