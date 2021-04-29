@@ -149,7 +149,7 @@ let question6 = function (myAge) {
     for (let i = 0; i < 3; i++) {
         if (myAge !== 23) {
             alert('too bad my age not ' + myAge);
-            if (myAge > 21 && myAge < 25) {
+            if (myAge > 23 ) {
                 alert('your guess is too high');
                 console.log('your guess is too high');
             }
