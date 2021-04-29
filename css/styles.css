@@ -6,13 +6,10 @@ h1 {
 #firstp {font-size: large;
 font-weight: bold;
 font-style: italic;
-background-color: palevioletred;
+background-color: rgb(138, 133, 134);
 }
 
-nav ul li {
-    display: inline;
-    margin: 20px;
-}
+
 
 nav ul li a {
     text-decoration: none;
@@ -20,20 +17,53 @@ nav ul li a {
 
 }
 
- /* main ol li {
-    list-style: decimal;}*/
 
 
 #firstItem {
-    background-color: rgb(164, 27, 182);
+    
     font-style: italic;
+    text-align: center;
 }
 
 .secondItem {
-    background-color: rgb(22, 232, 247);
+    
+    text-align: center;
     
 }
 
 body {
     background-color: rgb(139, 224, 68);
 }
+
+  header {
+     color: rgb(255,100,100);
+     font-family: Arial;
+     font-size: 10px;
+     padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 20px;
+    padding: 8px;
+}
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(22, 232, 247);
+    color: rgb(20, 19, 19);
+    text-align: center;
+  }
